@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Buttons & Links</title>
+    <style>
+    
+    a{
+        color: #333;
+        text-decoration: none;/*alt cızgıyı sıler*/
+    }
+
+    /*Üstüne gelince renk degıstırır*/
+    a:hover{
+        color: coral;
+        text-decoration: underline;
+    }
+    
+    /* Tıklandıktan sonra bu renk kalmaya devam edıyor 
+    a:visited{
+        color: blue;
+    } */
+    /*Tıklandıgında bu renk gelir*/
+    a:active{
+        color: chartreuse;
+    }
+
+
+    /*Button Styling*/
+    
+    .btn{
+    background: #4c6ca0;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;/*Üzerine gelince işaretçi yapar*/
+    }
+
+    .btn:hover{
+        color: #f4f4f4f4;
+        background: #446190;
+    }
+
+</style>
+</head>
+<body>
+    <br>
+    <a class="btn" href="">My Link</a>
+    <br><br>
+    <button class="btn">My Button</button>
+</body>
+</html>
