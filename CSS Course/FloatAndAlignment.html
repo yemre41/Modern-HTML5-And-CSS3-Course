@@ -6,9 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FloatAndAlignment</title>
     <style>
-.container{
-    width: 960px;
-}
+
+    *{
+        box-sizing: border-box;
+    }
+    .clr{
+        clear: both;
+    }
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.4em;
+    }
+    .box{
+        background: #f4f4f4f4;
+        border: 1px solid #333;
+        padding: 20px;
+        margin-bottom: 15px;
+    }
+    .box p {
+        text-align: left;
+        text-align: right;
+        text-align: center;
+        text-align: justify;
+     }
+     #box-2{
+        float: left;
+        width: 50%;
+     }
+     #box-3{
+        float: right;
+        width: 50%;
+     }
+
+    .container{
+        width: 960px;
+        margin: 30px auto;
+    }
     </style>
 </head>
 <body>
@@ -24,6 +57,13 @@
     </div>
 
     <div class="box" id="box-3">
+        <h3>Heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam sapiente nihil nemo blanditiis ipsam saepe animi, dicta, illum at aperiam qui corporis vel laudantium nesciunt reprehenderit velit, eum incidunt eveniet?</p>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="box" id="box-4">
         <h3>Heading</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam sapiente nihil nemo blanditiis ipsam saepe animi, dicta, illum at aperiam qui corporis vel laudantium nesciunt reprehenderit velit, eum incidunt eveniet?</p>
     </div>
