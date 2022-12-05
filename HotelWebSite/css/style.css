@@ -141,7 +141,7 @@ height: 600px;
 
 /*Home Info*/
 #home-info{
-    height: 400px;
+    height: 450px;
 }
 #home-info .info-img{
     float: left;
@@ -154,6 +154,7 @@ height: 600px;
     float: right;
     width: 50%;
     height: 100%;
+    text-align: center;
     padding: 50px 30px;
     overflow: hidden;
 }
