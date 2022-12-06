@@ -29,7 +29,26 @@
         margin: 10px;
         text-align: center;
         border-radius: 10px;
-        width: 200px;
+        /*Tüm genişliği kaplar=grow /shrink 0 / 200px e kadar kuculur*/
+        flex: 1 0 200px;
+        }
+
+        .item-1{
+            /*Ekran küçülsede boyut aynı kalır*/
+            /* flex-shrink: 0; */
+        }
+
+        .item-2{
+            /*Alanın gerı kalanını kaplar*/
+            /* flex-grow: 1;
+            flex-basis: 0; */
+        }
+
+        .item-3{
+            /*Flex-grow 1 in 2 katı olur*/
+            /* flex-grow: 2;
+            flex-basis: 0; */
+            flex: 2;
         }
     </style>
 </head>
