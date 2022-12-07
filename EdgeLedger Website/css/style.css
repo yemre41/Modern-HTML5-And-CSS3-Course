@@ -49,6 +49,10 @@ img{
     padding: 0 30px;
 }
 
+.navbar .top{
+    background: transparent;
+}
+
 .navbar a{
     color: #fff;
     padding: 10px 20px;
@@ -222,7 +226,7 @@ img{
 }
 
 /* Mobile */
-@media(max-width: 768px) {
+@media(max-width: 500px) {
     .navbar {
         flex-direction: column;
         height: 120px;
