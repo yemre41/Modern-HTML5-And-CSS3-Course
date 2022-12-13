@@ -4,10 +4,103 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="shortcut icon" href="./image_resources/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" media="screen and (max-width:768px)" href="./css/mobil.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
+    crossorigin="anonymous"
+  />
+  <link rel="shortcut icon" href="./image_resources/icon.png" type="image/x-icon">
+    <title>NewsGrid | Latest News </title>
 </head>
 <body>
-    
+   <nav id="main-nav">
+    <div class="container">
+        <img src="./image_resources/logo.png" alt="" class="logo">
+        <div class="social">
+            <a href=""><i class="fab fa-facebook fa-2x"></i></a>
+            <a href=""><i class="fab fa-twitter fa-2x"></i></a>
+            <a href=""><i class="fab fa-instagram fa-2x"></i></a>
+            <a href=""><i class="fab fa-youtube fa-2x"></i></a>
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </div>
+   </nav> 
+   
+   <section id="article">
+    <div class="container">
+        <div class="page-container">
+            <article class="card">
+                <img src="./image_resources/articles/ent1.jpg" alt="">
+                <h1 class="l-heading">Lorem ipsum dolor sit.</h1>
+                <div class="meta">
+                    <small>
+                        <i class="fas fa-user"></i>Written By Yunus Emre December 13,
+                        2022
+                    </small>
+                    <div class="category category-ent">Entertaiment</div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae est voluptatum hic nostrum alias quis, exercitationem eaque autem molestiae quo, sit assumenda eius debitis dignissimos illum nobis neque necessitatibus iste?</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum laboriosam, dignissimos dolor nemo delectus nostrum magni autem totam recusandae. Similique sequi odit voluptates quaerat exercitationem pariatur a illo itaque optio quos, iure, saepe tempora deserunt eveniet enim, modi animi natus quod laboriosam atque quisquam accusamus ad! Officia corporis consectetur saepe quis repellat aperiam eveniet eos sequi, debitis similique vitae adipisci asperiores velit porro unde impedit, labore nam nulla necessitatibus inventore tenetur et. Sint et iure excepturi tempore corporis voluptates quasi rem nisi repudiandae sapiente! Quos repudiandae doloremque iusto blanditiis vitae eaque repellat molestiae accusamus officiis numquam, ipsum dolorem sit autem!</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero qui asperiores consectetur fugiat accusantium repellendus!</p>
+            </article>
+            
+            <aside id="categories" class="card">
+                <h2>Categories</h2>
+                <ul class="list">
+                    <li><a href=""><i class="fas fa-chevron-right">Sports</i></a></li>
+                    <li><a href=""><i class="fas fa-chevron-right">Entertaiment</i></a></li>
+                    <li><a href=""><i class="fas fa-chevron-right">Technology</i></a></li>
+                    <li><a href=""><i class="fas fa-chevron-right">Fashion</i></a></li>
+                    <li><a href=""><i class="fas fa-chevron-right">Shopping</i></a></li>
+                </ul>
+            </aside>
+
+            <aside class="card bg-secondary">
+                <h2>Join Our Club</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, est?</p>
+                <a href="" class="btn btn-dark btn-block">Join Now</a>
+            </aside>
+        </div>
+    </div>
+   </section>
+
+   <!-- ! Footer ! -->
+   <footer id="main-footer" class="py-2">
+        <div class="container footer-container">
+            <div>
+                <img src="./image_resources/logo_light.png" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, sequi. Unde laborum aspernatur numquam. Temporibus ut esse reprehenderit pariatur numquam.</p>
+            </div>
+            <div>
+                <h3>Email Newsletter</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, dignissimos.</p>
+                <form action="">
+                    <input type="email" name="" id="" placeholder="Enter Email...">
+                    <input type="submit" value="Subscribe" class="btn btn-primary">
+                </form>
+            </div>
+            <div>
+                <h3>Site Links</h3>
+                <ul class="list">
+                    <li><a href="">Help & Support</a></li>
+                    <li><a href="">Privacy Policiy</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h2>Join Our Club</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, saepe.</p>
+                <a href="" class="btn btn-secondary">Join Now</a>
+            </div>
+            <div>Copryright &copy; 2019, All Rights Reversed</div>
+        </div>
+   </footer>
 </body>
-</html>
+</html> 
