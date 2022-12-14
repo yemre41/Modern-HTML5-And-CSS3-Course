@@ -1,0 +1,17 @@
+// Set Text Color
+/* Renk açıklık 50 den büyükse beyaz yapar küçükse siyah */
+@function set-text-color($color){
+    @if(lightness($color)>50){
+        @return #000;
+    }
+    @else{
+        @return #fff;
+    }
+}
+
+// Transform mixin
+@mixin transform($property){
+    --webkit-transform:$property;
+    --ms-transform:$property;
+    transform: $property;
+}
