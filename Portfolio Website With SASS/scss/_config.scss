@@ -6,3 +6,14 @@ $medium-color:#ccc;
 $dark-color:#333;
 //css dosyasına göre veriyoruz img ve css distin içinde oldugu için ona göre
 $bg-image:url('../img/showcase.jpg');
+
+// Set Text Color
+
+@function set-text-color($color){
+    @if(lightness($color) > 50 ){
+        @return #000
+    }
+    @else{
+        @return #fff;
+    }
+}
