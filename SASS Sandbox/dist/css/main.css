@@ -1,5 +1,9 @@
-body {
-  background: red; }
+* {
+  margin: 0;
+  padding: 0; }
 
-h1 {
-  background: blue; }
+body {
+  background: #f4f4f4;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5; }

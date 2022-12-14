@@ -1,8 +1,12 @@
-$color:red;
-$color2:blue;
-body{
-    background:$color;
+@import'variables';
+*{
+    margin: 0;
+    padding: 0;
 }
-h1{
-    background: $color2;
+
+body{
+    background: $light-color;
+    color: $dark-color;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
 }
